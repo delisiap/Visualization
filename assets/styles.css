@@ -1,0 +1,48 @@
+text.mono {
+	font-size: 0.65rem;
+	color: #aaa;
+}
+	  
+svg, .center {
+    display: block;
+    margin: 0 auto;
+}
+
+.center{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+	width: -moz-fit-content;
+}
+
+.chartLabel{
+    color: #071848;
+	font-weight: 600;
+	font-size: 0.8rem;
+	font-family: Garamond;
+}
+
+.tooltip{
+	position: absolute;
+	border-radius: 5px;
+	padding: 0.7rem;
+	background: #010615;
+	color: #c8c2c6;
+	opacity: 0.9;
+	font-size: 1rem;
+	line-height: 22px;
+	display:none;
+}
+
+.tooltip .label{
+	font-weight: 700;
+}
+
+html{
+	font-family: Garamond;
+	font-size: 15px;
+}
+
+.boxPlotLabel text {
+  transform: translate(0px, 12px) rotate(-15deg);
+}
